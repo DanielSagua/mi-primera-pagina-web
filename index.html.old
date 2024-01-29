@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet & Coffee</title>
+    <meta name="author" content="Daniel Sagua Nahuelhual">
+    <meta name="description" content="Comparte tus conocimientos tomando café">
+    <meta name="keywords" content="charlas, eventos, simposios, tecnología, co-work">
+    <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- menu -->
+    <nav>
+        <ul>
+            <li class="verde" >
+                <a href="#"><img src="assets/img/coffee-cup.svg" alt="icono-menu" width="50px"></a>
+            </li>
+            <li class="rojo" ><a href="#">Ubicación</a></li>
+            <li class="azul" ><a href="#">Próxima Charla</a></li>
+            <li class="verde" ><a href="#">Eventos anteriores</a></li>
+            <li class="verde" ><a href="#">Contacto</a></li>
+            <li class="amarillo" >Item normal</li>
+        </ul>
+    </nav>
+    <!-- hero section -->
+    <header>
+        <img src="assets/img/bg-hero.png" alt="bg-hero" width="300px">
+        <h1>Descubre lo último en tecnología bebiendo café</h1>
+        <h2>Charlas, eventos y simposios sobre tecnología</h2>
+    </header>
+    <!-- donde nos juntamos -->
+    <section id="ubicacion">
+        <img src="assets/img/we-work.jpg" alt="we-work" width="300px">
+        <h2>¿Dónde nos juntamos?</h2>
+        <p>
+            Todos los martes y viernes, de 19:00 a 22:00 en We Work, Calle Baker
+            133,Providencia, Santiago.
+        </p>
+    </section>
+    <!-- proxima charla -->
+    <section>
+        <img src="assets/img/speaker.jpg" alt="Rafaela Valdez">
+        <h2>Próxima charla</h2>
+        <h2>Big Data para Noobs</h2>
+        <h3>Rafaela Valdéz</h3>
+        <p>
+            Data Scientist, PhD Theoretical Physics, Carneige Mellon University.
+        </p>
+        <p>
+            En esta charla revisaremos las técnicas y tecnologías que hacen que sea económico hacer frente a los datos a
+            una escala extrema.
+        </p>
+    </section>
+    <!-- eventos anteriores -->
+    <section>
+        <h2>Eventos anteriores</h2>
+        <img src="assets/img/simposio-vegan.jpg" alt="simposio vegan">
+        <h3>Simposio VeganDB</h3>
+        <img src="assets/img/machine-learning.jpg" alt="machine-learning">
+        <h3>Machine learning 101</h3>
+        <img src="assets/img/scrum-sin-scream.jpg" alt="scrum-sin-scream">
+        <h3>Scrum sin scream</h3>
+    </section>
+    <!-- footer -->
+    <footer>
+        <img src="assets/img/github.svg" alt="github">
+        <img src="assets/img/twitter.svg" alt="twitter">
+        <img src="assets/img/linkedin.svg" alt="linkedin">
+        <p>
+            Meet & Coffe 2018. Todos los derechos reservados.
+        </p>
+    </footer>
+</body>
+
+</html>
